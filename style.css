@@ -14,8 +14,20 @@
 }
 
 
+#map {
+    height: 450px;
+  }
+
+
 @media (min-width: 768px) { 
   .card-img-top {
     height: 85vh;
+  }
+
+  #map {
+    height: 100%;
+  }
+
 }
- }
+
+
